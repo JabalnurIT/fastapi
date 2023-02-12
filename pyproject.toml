@@ -9,6 +9,10 @@ license = "MIT"
 python = "^3.10"
 fastapi = "^0.80.0"
 uvicorn = "^0.18.3"
+torch = "^1.13.1"
+transformers = "^4.26.1"
+pandas= "^1.5.3"
+datasets= "^2.9.0"
 
 
 [tool.poetry.dev-dependencies]
