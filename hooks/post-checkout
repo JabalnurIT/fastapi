@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if Git LFS is installed
+if ! command -v git-lfs &> /dev/null; then
+    echo "Error: Git LFS is not installed. Please install it and try again."
+    exit 1
+fi
+
+# Download LFS files
+git lfs pull
