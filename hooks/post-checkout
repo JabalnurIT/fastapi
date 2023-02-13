@@ -1,5 +1,7 @@
 #!/bin/bash
 
+brew install git-lfs
+
 # Check if Git LFS is installed
 if ! command -v git-lfs &> /dev/null; then
     echo "Error: Git LFS is not installed. Please install it and try again."
