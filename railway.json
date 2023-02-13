@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "git init && git lfs install && git lfs pull && uvicorn naturalness_score.api:app --host 0.0.0.0 --port $PORT",
+    "startCommand": "git init && git lfs install && uvicorn naturalness_score.api:app --host 0.0.0.0 --port $PORT",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
